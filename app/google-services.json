@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "426275970212",
+    "firebase_url": "https://aniro-ea3e1.firebaseio.com",
+    "project_id": "aniro-ea3e1",
+    "storage_bucket": "aniro-ea3e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426275970212:android:010eeda808c7e39e025a31",
+        "android_client_info": {
+          "package_name": "com.example.aniro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426275970212-bqruruhm4e4lhvsep6uj4eban4etossq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDWnhWUH5reRhQAQjj8BY864Hz_NxY4r8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426275970212-bqruruhm4e4lhvsep6uj4eban4etossq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
