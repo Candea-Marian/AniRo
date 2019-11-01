@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
                         JSONObject jsonObject = null;
 
-                        for(int i = 0; i < 100; i++) {
+                        for(int i = 0; i < 25; i++) {
 
                             try {
                                 jsonObject = results.getJSONObject(i);
