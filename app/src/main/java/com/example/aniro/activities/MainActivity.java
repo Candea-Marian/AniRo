@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         final ArrayList<Anime> animeList = new ArrayList<>();
 
-        String jsonUrl = "https://api.themoviedb.org/3/trending/tv/week?api_key=ff87d2f705446c73180377ac9b5e4b3e";
+        String jsonUrl = "https://api.themoviedb.org/3/trending/tv/week?api_key=***secret***";
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
 
