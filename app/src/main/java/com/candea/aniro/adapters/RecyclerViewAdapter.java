@@ -33,7 +33,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.anime_layout_grid, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.anime_item_layout, parent, false);
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
