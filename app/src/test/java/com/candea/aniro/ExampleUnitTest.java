@@ -1,4 +1,4 @@
-package com.example.aniro;
+package com.candea.aniro;
 
 import org.junit.Test;
 

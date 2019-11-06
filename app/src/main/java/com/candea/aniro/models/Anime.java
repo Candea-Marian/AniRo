@@ -1,4 +1,4 @@
-package com.example.aniro.models;
+package com.candea.aniro.models;
 
 public class Anime {
     private String title;

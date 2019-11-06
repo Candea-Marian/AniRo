@@ -1,4 +1,4 @@
-package com.example.aniro;
+package com.candea.aniro;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.aniro", appContext.getPackageName());
+        assertEquals("com.candea.aniro", appContext.getPackageName());
     }
 }

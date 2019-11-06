@@ -1,0 +1,12 @@
+query FeedResultTrending{
+    Page(page: 1, perPage: 100){
+        media(seasonYear: 2019, season: FALL, sort: [TRENDING_DESC]){
+            title {
+                romaji
+            },
+            coverImage{
+                large
+            }
+        }
+    }
+}
