@@ -66,8 +66,10 @@ public class PopularFragment extends Fragment {
                             anime.setTitle(response.data().Page().media().get(i).title().romaji());
                             anime.setDescription(response.data().Page().media().get(i).description());
                             anime.setBanner_url(response.data().Page().media().get(i).bannerImage());
-                            anime.setNrEpisodes(response.data().Page().media().get(i).episodes());
-                            anime.setRating(response.data().Page().media().get(i).averageScore().toString());
+                            if(response.data().Page().media().get(i).episodes() != null)
+                                anime.setNrEpisodes(response.data().Page().media().get(i).episodes());
+                            if(response.data().Page().media().get(i).averageScore() != null)
+                                anime.setRating(response.data().Page().media().get(i).averageScore().toString());
 
                             animeArrayList.add(anime);
                         }
