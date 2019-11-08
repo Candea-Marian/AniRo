@@ -6,7 +6,17 @@ query FeedResultTrending{
             },
             coverImage{
                 large
+            },
+            bannerImage,
+            episodes,
+            description,
+            averageScore,
+            streamingEpisodes {
+                title
+                thumbnail
             }
         }
     }
 }
+
+
