@@ -63,7 +63,11 @@ public class PopularFragment extends Fragment {
                         for(int i = 0; i < 50; i++) {
                             Anime anime = new Anime();
                             anime.setImage_url(response.data().Page().media().get(i).coverImage().large());
-                            anime.setTitle(response.data().Page().media().get(i).title().userPreferred());
+                            anime.setTitle(response.data().Page().media().get(i).title().romaji());
+                            anime.setDescription(response.data().Page().media().get(i).description());
+                            anime.setBanner_url(response.data().Page().media().get(i).bannerImage());
+                            anime.setNrEpisodes(response.data().Page().media().get(i).episodes());
+                            anime.setRating(response.data().Page().media().get(i).averageScore().toString());
 
                             animeArrayList.add(anime);
                         }
@@ -85,6 +89,7 @@ public class PopularFragment extends Fragment {
 
             }
         });
+
 
         return view;
     }
