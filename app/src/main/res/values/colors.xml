@@ -3,11 +3,4 @@
     <color name="colorPrimary">#808080</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorElements">#333333</color>
-    <color name="blue">#4287f5</color>
-    <color name="pink">#ff54d4</color>
-    <color name="darkBlue">#16376b</color>
-    <color name="dark_background">#424242</color>
-    <color name="background_edit_text">#11000000</color>
-    <color name="light_gray">#d2d2d2</color>
 </resources>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.DiscoverActivity"
-    android:background="@color/dark_background"
+    android:background="@color/cardview_dark_background"
     android:orientation="vertical">
 
     <com.google.android.material.tabs.TabLayout
@@ -15,36 +15,16 @@
         android:layout_height="wrap_content"
         app:tabMode="fixed"
         app:tabGravity="fill"
-        android:background="@color/colorElements"
-        app:tabTextColor="#FAFAFA"/>
+        android:background="@color/cardview_dark_background">
 
-    <RelativeLayout
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/viewPagerDiscover">
 
-        <androidx.viewpager.widget.ViewPager
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/viewPagerDiscover"/>
+    </androidx.viewpager.widget.ViewPager>
 
-        <ProgressBar
-            android:id="@+id/progress_bar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="50dp"
-            android:minHeight="50dp"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"/>
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_nav"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:itemTextColor="#FAFAFA"
-            app:itemBackground="@color/colorElements"
-            app:menu="@menu/menu_nav"
-            android:layout_alignParentBottom="true"/>
-
-    </RelativeLayout>
 
 </LinearLayout>

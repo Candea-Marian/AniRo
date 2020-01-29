@@ -1,0 +1,20 @@
+query FeedResultPopular{
+    Page(page: 1, perPage: 50){
+        media(sort: [POPULARITY_DESC]){
+            title {
+                romaji
+            },
+            coverImage{
+                large
+            },
+            bannerImage,
+            episodes,
+            description,
+            averageScore,
+            streamingEpisodes {
+                title
+                thumbnail
+            }
+        }
+    }
+}

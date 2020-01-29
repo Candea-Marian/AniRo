@@ -1,14 +1,3 @@
 <resources>
     <string name="app_name">AniRo</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="login">Login.</string>
-    <string name="create_an_account_here">Create an account here. \n or</string>
-    <string name="log_off">log off</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here.</string>
-    <string name="tracker">tracker</string>
-    <string name="discover">discover</string>
-    <string name="profile">profile</string>
 </resources>

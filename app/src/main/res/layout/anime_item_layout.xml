@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
-    android:id="@+id/anime_parent_layout"
+    android:id="@+id/parent_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="190dp"
+    android:layout_height="280dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    app:cardCornerRadius="3dp"
-    app:cardUseCompatPadding="true">
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="3dp">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/light_gray">
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_start_color">
 
         <ImageView
             android:id="@+id/image_show"
             android:layout_width="match_parent"
-            android:layout_height="235dp"
-            android:background="@color/dark_background"
-            android:scaleType="fitXY"
-            tools:ignore="ContentDescription"/>
+            android:layout_height="250dp"
+            android:background="@color/cardview_dark_background"
+            />
 
         <TextView
             android:id="@+id/title_show"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="match_parent"
+            android:text="ANIME_TITLE"
             android:textSize="12sp"
             android:gravity="center"
             android:textColor="#2d2d2d"
             android:textStyle="bold"
-            android:maxLines="1"
-            android:ellipsize="end"/>
+            />
 
     </LinearLayout>
 
