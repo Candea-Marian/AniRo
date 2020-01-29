@@ -8,12 +8,57 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:426275970212:android:010eeda808c7e39e025a31",
+        "mobilesdk_app_id": "1:426275970212:android:7dc4bb8fef471862025a31",
         "android_client_info": {
           "package_name": "com.candea.aniro"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "426275970212-c43o0nj5smr1iitardi0dijgmq2acenn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.candea.aniro",
+            "certificate_hash": "8682f45d9d54c1bae5182eadda8fb08a26a3e058"
+          }
+        },
+        {
+          "client_id": "426275970212-bqruruhm4e4lhvsep6uj4eban4etossq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDWnhWUH5reRhQAQjj8BY864Hz_NxY4r8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426275970212-bqruruhm4e4lhvsep6uj4eban4etossq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426275970212:android:010eeda808c7e39e025a31",
+        "android_client_info": {
+          "package_name": "com.example.aniro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426275970212-922hov6bvnqog99mgguthbepd84d9n6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aniro",
+            "certificate_hash": "8682f45d9d54c1bae5182eadda8fb08a26a3e058"
+          }
+        },
         {
           "client_id": "426275970212-bqruruhm4e4lhvsep6uj4eban4etossq.apps.googleusercontent.com",
           "client_type": 3
