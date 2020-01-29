@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity"
+    android:background="@color/colorElements">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/anirologo"
+        android:id="@+id/logo"
+        tools:ignore="ContentDescription"/>
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/white"
+        android:background="@color/background_edit_text"
+        android:drawableStart="@drawable/person"
+        android:layout_gravity="center_horizontal"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/background_edit_text"
+        android:drawableStart="@drawable/locker"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/password_confirm_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/confirm_password"
+        android:textColorHint="#FAFAFA"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/locker"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signup_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#FF69B4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/sign_up"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/open_login_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_sign_in_here"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>
